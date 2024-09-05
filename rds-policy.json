@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "rds:*"
+        ],
+        "Resource": "arn:aws:rds:us-east-1:152273536329:subgrp:mysql-rds-private-subnet-group"
+      }
+    ]
+  }
+  

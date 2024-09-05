@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:CreateRole",
+          "iam:AttachRolePolicy",
+          "iam:PassRole",
+          "iam:PutRolePolicy",
+          "iam:TagRole",
+          "iam:GetRole",
+          "iam:ListRolePolicies",
+          "iam:ListAttachedRolePolicies",
+          "iam:*"
+        ],
+        "Resource": "arn:aws:iam::152273536329:role/ec2-instance-role"
+      }
+    ]
+  }
+  

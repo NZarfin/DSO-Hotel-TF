@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ec2:CreateVpc",
+          "ec2:DescribeVpcs",
+          "ec2:CreateTags",
+          "ec2:DescribeSubnets",
+          "ec2:CreateSubnet",
+          "ec2:CreateInternetGateway",
+          "ec2:DescribeInternetGateways",
+          "ec2:AssociateRouteTable",
+          "ec2:CreateRouteTable",
+          "ec2:CreateRoute",
+          "ec2:DescribeRouteTables",
+          "ec2:DescribeSecurityGroups",
+          "ec2:DescribeKeyPairs",
+          "ec2:DescribeVpcAttribute",
+          "ec2:DeleteVpc",
+          "ec2:CreateSecurityGroup",
+          "ec2:*"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  

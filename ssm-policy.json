@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ssm:GetParameter"
+        ],
+        "Resource": "arn:aws:ssm:us-east-1:152273536329:parameter/dev/dso_hotel_db/db/password"
+      }
+    ]
+  }
+  
